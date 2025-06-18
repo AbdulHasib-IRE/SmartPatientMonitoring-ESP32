@@ -183,7 +183,7 @@ Below is a textual schematic of the connections.
    - Search and install all listed libraries for ESP32 and Uno.
 
 3. **Configure ESP32 Code**:
-   - Open `ucep_patient_esp.ino` in Arduino IDE.
+   - Open `PatientESP.ino` in Arduino IDE.
    - Update the following in the code:
      - `ssid`: Your WiFi network name.
      - `password`: Your WiFi password.
@@ -194,7 +194,7 @@ Below is a textual schematic of the connections.
      - `RECIPIENT_EMAIL`: Recipient’s email.
 
 4. **Arduino Uno Code**:
-   - Open `PatientMonitorUno.ino` in Arduino IDE.
+   - Open `PatientUno.ino` in Arduino IDE.
    - No configuration changes are required.
 
 ### 3. Code Upload
