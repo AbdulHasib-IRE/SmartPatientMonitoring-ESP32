@@ -71,6 +71,7 @@ Below is a textual schematic of the connections.
 | GPIO 13        | HX711 SCK                               |
 | GPIO 5         | Buzzer Positive (Negative to GND or via 100Ω resistor) |
 | GPIO 17 (TX)   | Arduino Uno RX (pin 0)                  |
+| GPIO 16 (RX)   | Arduino Uno TX (pin 1)                  |
 
 - **AD8232 Electrodes**: Connect to RA (Right Arm), LA (Left Arm), RL (Right Leg) on the body.
 - **HX711 Load Cell**: Connect to E+, E-, A+, A- (match wire colors per datasheet).
@@ -84,6 +85,7 @@ Below is a textual schematic of the connections.
 | A4 (SDA)       | SSD1306 SDA                             |
 | A5 (SCL)       | SSD1306 SCL                             |
 | Pin 0 (RX)     | ESP32 TX (GPIO 17)                      |
+| Pin 1 (TX)     | ESP32 RX (GPIO 16)                      |
 
 #### Power and Ground
 
